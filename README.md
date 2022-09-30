@@ -21,13 +21,13 @@ This installation method intelligently makes use of [GNU Stow](https://www.gnu.o
 > **Note:** If you're not already familiar with stow, I highly recommend learning how to make use of it on Unix-like systems whether you're a professional or a power user.
 
 ```bash
-pacman -S stow
+apt install stow
 ```
 
 You will also need Git.
 
 ```bash
-pacman -S git
+apt install git
 ```
 
 Clone this repo into your `$HOME` directory using SSH and `cd` into it.
